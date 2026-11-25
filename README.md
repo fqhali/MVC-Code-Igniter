@@ -50,7 +50,7 @@ Proyek menggunakan **CodeIgniter v4.7.6** yang diunduh langsung dari situs resmi
    php spark serve
    ```
 
-![Tampilan Awal CodeIgniter 4 di Localhost]("https://github.com/fqhali/MVC-Code-Igniter/blob/2671edfba79e616788b94b4fe7449a9755d0c554/images/tampilanCI.png")
+![Tampilan Awal CodeIgniter 4 di Localhost](https://github.com/fqhali/MVC-Code-Igniter/blob/0936f2915b9a28d9756f067e3403d9986577159c/images/tampilanCI.png)
 
 ---
 
@@ -100,10 +100,9 @@ $routes->get('/', 'Home::index');
 $routes->get('/about', 'Page::about');
 $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
-$routes->get('/page/tos', 'Page::tos');
 ```
 
-![Konfigurasi Routes.php dan Hasil Uji Halaman]("https://github.com/fqhali/MVC-Code-Igniter/blob/2671edfba79e616788b94b4fe7449a9755d0c554/images/tos.png")
+![Konfigurasi Routes.php dan Hasil Uji Halaman](https://github.com/fqhali/MVC-Code-Igniter/blob/0936f2915b9a28d9756f067e3403d9986577159c/images/routeCI.png)
 
 ---
 
@@ -201,9 +200,7 @@ Membuat folder `app/Views/layout/` berisi dua file template utama menggunakan **
 <?= view('layout/footer') ?>
 ```
 
-![image alt]("https://github.com/fqhali/MVC-Code-Igniter/blob/2671edfba79e616788b94b4fe7449a9755d0c554/images/bootstrapabout.png")
-
-
+![image alt](https://github.com/fqhali/MVC-Code-Igniter/blob/2671edfba79e616788b94b4fe7449a9755d0c554/images/bootstrapabout.png)
 
 ---
 
