@@ -183,7 +183,7 @@ Membuat folder `app/Views/layout/` berisi dua file template utama menggunakan **
 
 ### 4.3 Pembuatan File View Halaman & Penyelesaian `ViewException`
 * **Kendala:** Muncul pesan error `CodeIgniter\View\Exceptions\ViewException: Invalid file: "about.php"` dan `"contact.php"` karena file view belum diletakkan langsung di dalam root direktori `app/Views/`.
-* **Solusi:** Memastikan file `about.php` dan `contact.php` berada tepat di jalur `app/Views/` (sejajar dengan folder `layout`) dengan ekstensi `.php` yang valid.
+* **Solusi:** Memastikan file `about.php` dan berada tepat di jalur `app/Views/` (sejajar dengan folder `layout`) dengan ekstensi `.php` yang valid.
 
 **`app/Views/about.php`**
 ```php
