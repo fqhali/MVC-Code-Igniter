@@ -14,7 +14,7 @@ Untuk menjalankan CodeIgniter 4 secara lokal, diperlukan *runtime* PHP yang dida
   winget install ApacheFriends.Xampp.8.2
   ```
 
-![Instalasi XAMPP via Winget]("<permalink gambar yang nanti saya input>")
+
 
 ### 1.2 Konfigurasi Environment Variables (Path) & Ekstensi PHP
 1. Menambahkan direktori `C:\xampp\php` ke dalam **System Environment Variables (`Path`)** agar perintah `php` dapat diakses secara global melalui terminal.
@@ -29,7 +29,6 @@ Untuk menjalankan CodeIgniter 4 secara lokal, diperlukan *runtime* PHP yang dida
    extension=curl
    ```
 
-![Verifikasi Versi PHP di Terminal]("<permalink gambar yang nanti saya input>")
 
 ---
 
@@ -51,7 +50,7 @@ Proyek menggunakan **CodeIgniter v4.7.6** yang diunduh langsung dari situs resmi
    php spark serve
    ```
 
-![Tampilan Awal CodeIgniter 4 di Localhost]("<permalink gambar yang nanti saya input>")
+![Tampilan Awal CodeIgniter 4 di Localhost]("https://github.com/fqhali/MVC-Code-Igniter/blob/2671edfba79e616788b94b4fe7449a9755d0c554/images/tampilanCI.png")
 
 ---
 
@@ -104,7 +103,7 @@ $routes->get('/faqs', 'Page::faqs');
 $routes->get('/page/tos', 'Page::tos');
 ```
 
-![Konfigurasi Routes.php dan Hasil Uji Halaman]("<permalink gambar yang nanti saya input>")
+![Konfigurasi Routes.php dan Hasil Uji Halaman]("https://github.com/fqhali/MVC-Code-Igniter/blob/2671edfba79e616788b94b4fe7449a9755d0c554/images/tos.png")
 
 ---
 
@@ -202,29 +201,9 @@ Membuat folder `app/Views/layout/` berisi dua file template utama menggunakan **
 <?= view('layout/footer') ?>
 ```
 
-**`app/Views/contact.php`**
-```php
-<?= view('layout/header') ?>
+![image alt]("https://github.com/fqhali/MVC-Code-Igniter/blob/2671edfba79e616788b94b4fe7449a9755d0c554/images/bootstrapabout.png")
 
-<h2>Hubungi Kami</h2>
-<form class="mt-3">
-    <div class="mb-3">
-        <label class="form-label">Nama</label>
-        <input type="text" class="form-control" placeholder="Masukkan nama Anda">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Pesan</label>
-        <textarea class="form-control" rows="4" placeholder="Tuliskan pesan Anda"></textarea>
-    </div>
-    <button type="submit" class="btn btn-success">Kirim Pesan</button>
-</form>
 
-<?= view('layout/footer') ?>
-```
-
-![Hasil Tampilan Halaman About dengan Bootstrap]("<permalink gambar yang nanti saya input>")
-
-![Hasil Tampilan Halaman Contact dengan Bootstrap]("<permalink gambar yang nanti saya input>")
 
 ---
 
